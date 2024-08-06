@@ -13,12 +13,12 @@ export class FirebaseManager {
     const message: admin.messaging.Message = {
       topic: Constants.admin,
       data: {
-        message: "🅿️  Bidvest Backend App started OK! 🅿️",
+        message: "🅿️  IQLab Backend App started OK! 🅿️",
         date: date,
       },
       notification: {
-        title: "Bidvest Backend",
-        body: ` 🥬 🥬 🥬 🥬 Bidvest Backend App is running good, Boss! : ${date}
+        title: "IQLab Backend",
+        body: ` 🥬 🥬 🥬 🥬 IQLab Backend App is running good, Boss! : ${date}
         )} 🅿️ `,
       },
     };
@@ -43,7 +43,7 @@ export class FirebaseManager {
         date: date,
       },
       notification: {
-        title: "Bidvest Backend",
+        title: "IQLab Backend",
         body: `${msg} : ${date}
         )} 🅿️ `,
       },
